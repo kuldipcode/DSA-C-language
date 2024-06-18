@@ -1,7 +1,7 @@
 # DSA-C-language
 ## IDE for C languages 
 ### Bytexl (priority)
-* https://bytexl.app/login
+* [bytexl tool](https://bytexl.app/login)
 
 ### VS code extensions 
 
