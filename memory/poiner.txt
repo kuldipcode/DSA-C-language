@@ -1,0 +1,83 @@
+The memory address is in hexadecimal form (0x..)
+
+reference operator (&), and the result represents where the variable is stored:
+
+-------------------------------------------------
+int myAge = 43;
+printf("%p", &myAge); // Outputs 0x7ffe5367e044
+-----------------------------------------------------
+
+&myAge is often called a "pointer"
+
+A pointer variable points to a data type (like int) of the same type, and is created with the * operator.
+
+-----------------------------------------------------------------------
+int myAge = 43;     // An int variable
+int* ptr = &myAge;  // A pointer variable, with the name ptr, that stores the address of myAge
+
+// Output the value of myAge (43)
+printf("%d\n", myAge);
+
+// Output the memory address of myAge (0x7ffe5367e044)
+printf("%p\n", &myAge);
+
+// Output the memory address of myAge with the pointer (0x7ffe5367e044)
+printf("%p\n", ptr);
+------------------------------------------------------------------------
+# Dereferance
+
+int myAge = 43;     // Variable declaration
+int* ptr = &myAge;  // Pointer declaration
+
+// Reference: Output the memory address of myAge with the pointer (0x7ffe5367e044)
+printf("%p\n", ptr);
+
+// Dereference: Output the value of myAge with the pointer (43)
+printf("%d\n", *ptr);
+
+int* myNum;
+int *myNum;
+
+When used in declaration (int* ptr), it creates a pointer variable.
+When not used in declaration, it act as a dereference operator.
+
+-----------------------------------------------------
+// size of each elements
+#include <stdio.h>
+
+int main() {
+  int myNumbers[4] = {25, 50, 75, 100};
+
+  printf("%lu", sizeof(myNumbers));
+
+  return 0;
+}
+------------------------------------------------
+can use the * operator to access it:
+#include <stdio.h>
+ 
+int main() {
+  int myNumbers[4] = {25, 50, 75, 100};
+  
+  // Get the value of the first element in myNumbers
+  printf("%d", *myNumbers);
+ 
+  return 0;
+}
+
+---------------------------------------------------
+To access the rest of the elements in myNumbers, you can increment the pointer/array (+1, +2, etc):
+
+#include <stdio.h>
+ 
+int main() {
+  int myNumbers[4] = {25, 50, 75, 100};
+
+  // Get the value of the second element in myNumbers
+  printf("%d\n", *(myNumbers + 1));
+
+  // Get the value of the third element in myNumbers
+  printf("%d", *(myNumbers + 2));
+ 
+  return 0;
+}
