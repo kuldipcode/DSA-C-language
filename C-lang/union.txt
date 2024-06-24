@@ -1,2 +1,0 @@
-https://www.tutorialspoint.com/difference-between-structure-and-union-in-c-program
-https://www.tutorialspoint.com/state-the-difference-between-structure-and-union-with-suitable-example-in-c-language
