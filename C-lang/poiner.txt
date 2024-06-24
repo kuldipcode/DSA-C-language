@@ -1,3 +1,5 @@
+https://www.tutorialspoint.com/cprogramming/c_memory_management.htm
+
 The memory address is in hexadecimal form (0x..)
 
 reference operator (&), and the result represents where the variable is stored:
