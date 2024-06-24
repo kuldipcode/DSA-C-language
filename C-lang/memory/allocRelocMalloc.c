@@ -4,7 +4,7 @@
 int main() {
   int *ptr1, *ptr2;
 
-  // Allocate memory
+  // Allocate memory : The malloc() and calloc() functions allocate some memory and return a pointer to its address.
   ptr1 = malloc(4);
 
   // Attempt to resize the memory
