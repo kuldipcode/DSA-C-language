@@ -12,3 +12,9 @@
 
 * http://www.codeblocks.org/. Download the mingw-setup.exe file, which will install the text editor with a compiler.
 
+### run through CMD 
+
+* ``` gcc -v ``` (if not install, install)
+* ``` gcc file.c ``` (This will produce file.exe file)
+* Simply run file.exe file with name file
+ 

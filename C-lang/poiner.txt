@@ -41,7 +41,7 @@ int* myNum;
 int *myNum;
 
 When used in declaration (int* ptr), it creates a pointer variable.
-When not used in declaration, it act as a dereference operator.
+When not used in declaration, it act as a dereference operator. get the value of the variable the pointer points to
 
 -----------------------------------------------------
 // size of each elements
