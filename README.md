@@ -14,7 +14,7 @@
 
 ### run through CMD 
 
-* ``` gcc -v ``` (if not install, install)
+* ``` gcc -v ``` (if not install, install gcc compiler)
 * ``` gcc file.c ``` (This will produce file.exe file)
 * Simply run file.exe file with name file
  
