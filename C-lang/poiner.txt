@@ -83,3 +83,15 @@ int main() {
  
   return 0;
 }
+--------------------------------------------------------------------
+https://www.educative.io/answers/what-is-the-arrow-operator-in-c-cpp
+Arrow operator
+The arrow operator -> in C and C++ is used for accessing members (variables, methods) of a structure or class through a pointer. 
+It’s specifically applied in scenarios involving dynamic memory allocation, linked lists, and other data structures and instances where objects are accessed through their pointers.
+
+Arrow vs. dot operator (pointer->member  ==  (*pointer).member)
+
+----------------
+The arrow operator -> is vital in managing objects and structures through pointers, especially in complex data structures. 
+It ensures code readability by providing a clear and concise way to dereference pointers when accessing member elements, encapsulating the dereference operation (*ptr). 
+into a straightforward ptr-> expression.
